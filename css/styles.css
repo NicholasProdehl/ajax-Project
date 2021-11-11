@@ -67,3 +67,8 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+.middle-half-column > p {
+  color: #fefc9b;
+  font-size: 64px;
+}
