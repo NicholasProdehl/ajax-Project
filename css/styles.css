@@ -1,24 +1,10 @@
 body {
-  background-image: url(../images/Bitcoin-background.jpeg);
+  background: url(../images/Bitcoin-background.jpeg) center fixed;
   background-size: cover;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.4);
-}
-
-.left-side-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.right-side-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .portfolio {
@@ -41,4 +27,43 @@ header {
 .crypton-logo {
   font-size: 32px;
   color: #ae5d01;
+}
+
+.sider-header {
+  background-color: #ae5d01;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.crypto-button > img {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+
+.data-list > h5 {
+  margin: 0;
+}
+
+.crypto-button {
+  height: 28px;
+  width: 140px;
+  text-align: center;
+}
+
+.crypto-button > p {
+  margin-left: 4px;
+}
+
+.data-list {
+  display: flex;
+  background-color: #ae5d01;
+  width: 110px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
 }

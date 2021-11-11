@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+.quarter-column {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.middle-half-column {
+  flex-basis: 50%;
+}
+
+.left-side-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
