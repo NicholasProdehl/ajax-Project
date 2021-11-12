@@ -27,6 +27,7 @@ header {
 .crypton-logo {
   font-size: 32px;
   color: #ae5d01;
+  text-decoration: none;
 }
 
 .sider-header {
@@ -71,6 +72,7 @@ header {
 .middle-half-column > p {
   color: #fefc9b;
   font-size: 64px;
+  text-align: center;
 }
 
 select {
