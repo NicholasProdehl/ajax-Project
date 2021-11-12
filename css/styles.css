@@ -81,3 +81,70 @@ select {
   width: 250px;
   height: 36px;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amount-input > input {
+  width: 145;
+  background-color: #ceb5a7;
+  border-width: 0;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #a17c6b;
+}
+
+.amount-input > input:focus {
+  border: 0;
+  outline: none;
+}
+
+select:hover {
+  border-color: #ceb5a7;
+  background-color: #a17c6b;
+  cursor: pointer;
+}
+
+.amount-input > p {
+  font-size: 10px;
+  color: #e0f2e9;
+  margin-top: 3px;
+  margin-left: 6px;
+  margin-bottom: 1px;
+}
+
+.amount-input {
+  margin-top: 40px;
+  width: 150px;
+  background-color: #ceb5a7;
+  border: solid 1px #a17c6b;
+  border-radius: 2px;
+}
+
+.amount-input:hover {
+  border-color: #ceb5a7;
+  background-color: #a17c6b;
+  color: #ceb5a7;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  width: 130px;
+  color: #e0f2e9;
+  height: 40px;
+  background-color: #ceb5a7;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a17c6b;
+}
+
+input[type="submit"]:hover {
+  border-color: #ceb5a7;
+  background-color: #a17c6b;
+  cursor: pointer;
+}

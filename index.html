@@ -100,7 +100,8 @@
         <div class="middle-half-column">
           <p>Crypto Portfolio</p>
           <form>
-            <select name="cryptos" id="crypto-choice">
+            <select name="cryptos" id="crypto-choice" required>
+              <option value="" disabled selected>Select your Cryptocurrency</option>
               <option value="bitcoin">Bitcoin</option>
               <option value="ethereum">Ethereum</option>
               <option value="binance-coin">Binance Coin</option>
@@ -112,6 +113,12 @@
               <option value="shiba-inu">Shiba Inu</option>
               <option value="doge-coin">Doge Coin</option>
             </select>
+            <div class="amount-input">
+              <p>Amount</p>
+              <input type="number" name="amount" id ="amount" placeholder = "Any number value"
+              step = "0.000001" min = "0" required>
+            </div>
+            <input type="submit" value="Change Holdings">
           </form>
         </div>
         <div class="quarter-column"></div>
