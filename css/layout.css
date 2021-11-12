@@ -1,0 +1,63 @@
+.hidden {
+  display: none !important;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quarter-column {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.middle-half-column {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-side-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .middle-half-column,
+  .quarter-column {
+    padding: 0 0.75rem;
+    flex-basis: 100%;
+  }
+}
