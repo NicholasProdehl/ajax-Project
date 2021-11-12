@@ -150,3 +150,50 @@ input[type="submit"]:hover {
   background-color: #a17c6b;
   cursor: pointer;
 }
+
+.total-valuation {
+  margin-top: 120px;
+  display: flex;
+  text-align: center;
+  width: 420px;
+  height: 64px;
+  align-items: center;
+  background-color: #a17c6b;
+  border-color: #ceb5a7;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.total-valuation > h5 {
+  margin: 0;
+  font-size: 48px;
+  color: #e0f2e9;
+}
+
+.total-valuation > img {
+  width: 56px;
+  height: 56px;
+}
+
+.value-output > img {
+  width: 200px;
+  height: 200px;
+}
+
+.value-output > h1 {
+  color: #e0f2e9;
+  margin: 0;
+  font-size: 72px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 170px;
+}
+
+.value-output {
+  margin-left: -4rem;
+  margin-top: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
