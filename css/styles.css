@@ -101,6 +101,11 @@ form {
   border-color: #a17c6b;
 }
 
+.remove-portfolio > div > input {
+  height: 34px;
+  width: 240px;
+}
+
 .amount-input > input:focus {
   border: 0;
   outline: none;
@@ -151,6 +156,7 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
+.crypto-header,
 .total-valuation {
   margin-top: 120px;
   display: flex;
@@ -165,15 +171,18 @@ input[type="submit"]:hover {
   border-width: 1px;
 }
 
+.crypto-header > p,
 .total-valuation > h5 {
   margin: 0;
   font-size: 48px;
   color: #e0f2e9;
 }
 
+.crypto-header > img,
 .total-valuation > img {
   width: 56px;
   height: 56px;
+  object-fit: cover;
 }
 
 .value-output > img {
@@ -192,8 +201,30 @@ input[type="submit"]:hover {
 
 .value-output {
   margin-left: -4rem;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   text-align: center;
   align-items: center;
+}
+
+.remove-portfolio > div {
+  width: 250px;
+  height: 60px;
+}
+
+.remove-button {
+  margin-top: 30px;
+  width: 130px;
+  color: #e0f2e9;
+  height: 40px;
+  background-color: #ceb5a7;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a17c6b;
+}
+
+.remove-button:hover {
+  border-color: #ceb5a7;
+  background-color: #a17c6b;
+  cursor: pointer;
 }

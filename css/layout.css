@@ -47,6 +47,15 @@ header {
   flex-direction: row;
 }
 
+.remove-portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     display: flex;
